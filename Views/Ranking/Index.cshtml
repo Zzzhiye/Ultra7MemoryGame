@@ -1,0 +1,36 @@
+﻿@model IEnumerable<MemoryGame.Models.Ranking>
+
+<h2>Index</h2>
+
+<p>
+	<a asp-action="Create">Create</a>
+</p>
+
+<table class="table">
+	<thead>
+		<tr>
+			<td>
+				@Html.DisplayNameFor(model => model.ActivityId)
+			</td>
+			<td>
+				@Html.DisplayNameFor(model => model.UserName)
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var item in Model) {
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.ActivityId)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.UserName)
+				</td>
+				<td>
+					<a asp-action="Edit" asp-route-id="@item.ActivityId">Edit</a> |
+					<a asp-action="Delete" asp-route-id="@item.ActivityId">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
