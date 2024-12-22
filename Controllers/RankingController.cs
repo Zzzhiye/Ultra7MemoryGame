@@ -18,7 +18,10 @@ namespace MemoryGame.Controllers
         [HttpGet]
         public async Task<IActionResult> GetRankings()
         {
-            List<Ranking> Rankings = await _RankingContext.Rankings.ToListAsync();
+            List<Ranking> Rankings = await _RankingContext.Rankings
+                .OrderBy(r => r.completionTime)
+                .Take(5)
+                .ToListAsync();
             return Ok(Rankings); 
         }
     }
