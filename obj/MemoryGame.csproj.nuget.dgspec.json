@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/htetinzali/NUS/NUS Project/Android-CA-Project/UltraSevenMemoryGame/MemoryGame.csproj": {}
+    "C:\\Users\\hanna\\Source\\Repos\\Ultra7MemoryGame\\MemoryGame.csproj": {}
   },
   "projects": {
-    "/Users/htetinzali/NUS/NUS Project/Android-CA-Project/UltraSevenMemoryGame/MemoryGame.csproj": {
+    "C:\\Users\\hanna\\Source\\Repos\\Ultra7MemoryGame\\MemoryGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/htetinzali/NUS/NUS Project/Android-CA-Project/UltraSevenMemoryGame/MemoryGame.csproj",
+        "projectUniqueName": "C:\\Users\\hanna\\Source\\Repos\\Ultra7MemoryGame\\MemoryGame.csproj",
         "projectName": "MemoryGame",
-        "projectPath": "/Users/htetinzali/NUS/NUS Project/Android-CA-Project/UltraSevenMemoryGame/MemoryGame.csproj",
-        "packagesPath": "/Users/htetinzali/.nuget/packages/",
-        "outputPath": "/Users/htetinzali/NUS/NUS Project/Android-CA-Project/UltraSevenMemoryGame/obj/",
+        "projectPath": "C:\\Users\\hanna\\Source\\Repos\\Ultra7MemoryGame\\MemoryGame.csproj",
+        "packagesPath": "C:\\Users\\hanna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hanna\\Source\\Repos\\Ultra7MemoryGame\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/htetinzali/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\hanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/Users/htetinzali/.dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -50,8 +56,6 @@
               "version": "[8.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
             },
@@ -87,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/htetinzali/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

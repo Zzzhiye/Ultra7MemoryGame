@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "MemoryGame.Controllers.RankingsController",
+    "Method": "GetRankings",
+    "RelativePath": "api/Rankings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
