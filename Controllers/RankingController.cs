@@ -19,7 +19,7 @@ namespace MemoryGame.Controllers
         public async Task<IActionResult> GetRankings()
         {
             List<Ranking> Rankings = await _RankingContext.Rankings
-                .OrderBy(r => r.completionTime)
+                .OrderBy(r => r.CompletionTime)
                 .Take(5)
                 .ToListAsync();
             return Ok(Rankings); 

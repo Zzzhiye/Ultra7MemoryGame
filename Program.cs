@@ -4,6 +4,14 @@ using MemoryGame.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var connectionString = "Server=localhost;Database=memorygame;User=root;Password=password;Port=3306;CharSet=utf8;SslMode=none";
+builder.Services.AddDbContext<MemoryGameContext>(options =>
+    options.UseMySql(
+        connectionString,
+        ServerVersion.AutoDetect(connectionString)
+    )
+);
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
