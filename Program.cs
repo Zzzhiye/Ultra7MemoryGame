@@ -13,6 +13,11 @@ builder.Services.AddDbContext<RankingContext>(options =>
     options.UseMySQL("Data Source=localhost;Database=memorygame;User ID=root;Password=password;Port=3306;sslmode=none;CharSet=utf8;")
    );
 
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySQL("Data Source=localhost;Database=memorygame;User ID=root;Password=password;Port=3306;sslmode=none;CharSet=utf8;")
+    );
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
