@@ -21,7 +21,7 @@ namespace MemoryGame.Controllers
         [HttpGet("{UserId}/paid-status")]
         public IActionResult GetPaidStatus(int UserId)
         {
-            var user = _dbContext.Users.FirstOrDefault(u => u.UserId == UserId);
+            var user = _dbContext.User.FirstOrDefault(u => u.UserId == UserId);
             if (user == null)
             {
                 return NotFound(new {message = "User not found"});
