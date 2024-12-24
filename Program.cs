@@ -1,6 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using MemoryGame.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using MemoryGame.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,9 +11,25 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddConnections();
 
-builder.Services.AddDbContext<RankingContext>(options =>
-    options.UseMySQL("Data Source=localhost;Database=memorygame;User ID=root;Password=password;Port=3306;sslmode=none;CharSet=utf8;")
-   );
+builder.Services.AddDbContext<GameContext>(options =>
+    options.UseMySQL("Server=localhost;Database=memorygame;User=root;Password=123456;sslmode=none;CharSet=utf8;")
+);
+
+// Add authentication
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/login";
+        options.LogoutPath = "/logout";
+        options.Cookie.HttpOnly = true;
+        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+        options.Cookie.SameSite = SameSiteMode.Strict;
+        options.ExpireTimeSpan = TimeSpan.FromDays(7);
+    });
+
+
+// Add services
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
@@ -28,6 +46,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

@@ -9,8 +9,8 @@ namespace MemoryGame.Controllers
     [Route("api/[controller]")]
     public class RankingsController : ControllerBase
     {
-        private readonly RankingContext _RankingContext;
-        public RankingsController(RankingContext RankingContext)
+        private readonly GameContext _RankingContext;
+        public RankingsController(GameContext RankingContext)
         {
             _RankingContext = RankingContext;
         }

@@ -1,15 +1,21 @@
-using MemoryGame.Models;
 using Microsoft.EntityFrameworkCore;
+using MemoryGame.Models;
 
 namespace MemoryGame.Data
 {
-    public class RankingContext : DbContext
+    public class GameContext : DbContext
     {
-        public RankingContext(DbContextOptions<RankingContext> options) : base(options) { }
+        public GameContext(DbContextOptions<GameContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<User> User { get; set; }
         public DbSet<Ranking> Rankings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<User>().ToTable("user");
             modelBuilder.Entity<Ranking>().ToTable("ranking");
         }
     }
