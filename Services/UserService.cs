@@ -6,16 +6,16 @@ namespace MemoryGame.Services
 {
     public class UserService : IUserService
     {
-        private readonly GameContext _context;
+        private readonly MemoryGameContext _context;
 
-        public UserService(GameContext context)
+        public UserService(MemoryGameContext context)
         {
             _context = context;
         }
 
         public async Task<User?> ValidateUserAsync(string username, string password)
         {
-            return await _context.User
+            return await _context.Users
                 .FirstOrDefaultAsync(u => u.UserName == username && u.Password == password);
         }
     }

@@ -11,9 +11,13 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddConnections();
 
-builder.Services.AddDbContext<GameContext>(options =>
-    options.UseMySQL("Server=localhost;Database=memorygame;User=root;Password=123456;sslmode=none;CharSet=utf8;")
-);
+builder.Services.AddDbContext<MemoryGameContext>(options =>
+    options.UseMySQL("Data Source=localhost;Database=memorygame;User ID=root;Password=123456;Port=3306;sslmode=none;CharSet=utf8;")
+   );
+
+//builder.Services.AddDbContext<AppDbContext>(options =>
+//    options.UseMySQL("Data Source=localhost;Database=memorygame;User ID=root;Password=admin;Port=3306;sslmode=none;CharSet=utf8;")
+//    );
 
 // Add authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

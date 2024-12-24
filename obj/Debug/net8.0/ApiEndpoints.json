@@ -34,5 +34,37 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MemoryGame.Controllers.RankingsController",
+    "Method": "PostRanking",
+    "RelativePath": "api/Rankings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rankingDTO",
+        "Type": "MemoryGame.Models.RankingRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MemoryGame.Controllers.AdsController",
+    "Method": "GetPaidStatus",
+    "RelativePath": "api/user/{UserId}/paid-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
