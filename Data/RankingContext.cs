@@ -8,9 +8,12 @@ namespace MemoryGame.Data
         public RankingContext(DbContextOptions<RankingContext> options) : base(options) { }
         public DbSet<Ranking> Rankings { get; set; }
 
+        public DbSet<Ranking> Users { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Ranking>().ToTable("ranking");
         }
     }
+
 }

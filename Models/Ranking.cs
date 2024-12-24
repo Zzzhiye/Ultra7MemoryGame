@@ -1,13 +1,24 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MemoryGame.Models
 {
+    [Table("Ranking")]
     public class Ranking
     {
         [Key]
-        public int ActivityId { get; set; }
-        public required String UserName { get; set; }
-        public required int completionTime { get; set; }
-        public required DateTime DateTime { get; set; }
+        public long ActivityId { get; set; }
+
+        [Required]
+        public long UserId { get; set; }
+
+        [Required]
+        public TimeSpan CompletionTime { get; set; }  // Time in seconds
+
+        [Required]
+        public DateTime DateTime { get; set; }
+
+        [ForeignKey("UserId")]
+        public virtual User User { get; set; }
     }
 }
