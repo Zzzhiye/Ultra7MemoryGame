@@ -29,10 +29,9 @@ namespace MemoryGame.Data
             {
                 entity.HasKey(e => e.ActivityId);
                 // Relationship with User
-                entity.HasOne<User>()
-                    .WithMany()
-                    .HasForeignKey(r => r.UserId)
-                    .HasPrincipalKey(u => u.UserId);
+                entity.HasOne(r => r.User)
+                    .WithMany(u => u.Rankings)
+                    .HasForeignKey(r => r.UserId);
             });
         }
     }
