@@ -19,6 +19,6 @@ namespace MemoryGame.Models
         public DateTime DateTime { get; set; }
 
         [ForeignKey("UserId")]
-        public virtual User User { get; set; }
+        public User User { get; set; }
     }
 }

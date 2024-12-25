@@ -12,7 +12,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddConnections();
 
 builder.Services.AddDbContext<MemoryGameContext>(options =>
-    options.UseMySQL("Data Source=localhost;Database=memorygame;User ID=root;Password=password;Port=3306;sslmode=none;CharSet=utf8;")
+    options.UseMySQL("Data Source=localhost;Database=memorygame;User ID=root;Password=123456;Port=3306;AllowPublicKeyRetrieval=True;SslMode=none;CharSet=utf8;")
    );
 
 // Add authentication

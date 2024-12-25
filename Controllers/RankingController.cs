@@ -9,8 +9,8 @@ namespace MemoryGame.Controllers
     [Route("api/[controller]")]
     public class RankingsController : ControllerBase
     {
-        private readonly GameContext _RankingContext;
-        public RankingsController(GameContext RankingContext)
+        private readonly MemoryGameContext _RankingContext;
+        public RankingsController(MemoryGameContext RankingContext)
         {
             _RankingContext = RankingContext;
         }
@@ -36,7 +36,7 @@ namespace MemoryGame.Controllers
         [HttpPost]
         public async Task<IActionResult> PostRanking([FromBody]RankingRequestDTO rankingDTO)
         {
-            var user = await _RankingContext.Users
+            var user = await _RankingContext.User
                 .FirstOrDefaultAsync(u => u.UserId == rankingDTO.UserId);
             if (user == null)
             {
