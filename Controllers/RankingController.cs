@@ -33,7 +33,7 @@ namespace MemoryGame.Controllers
             return Ok(lst); 
         }
 
-        [HttpPost]
+        [HttpPost("addRanking")]
         public async Task<IActionResult> PostRanking([FromBody]RankingRequestDTO rankingDTO)
         {
             var user = await _RankingContext.User

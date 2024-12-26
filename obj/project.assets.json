@@ -7394,23 +7394,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MaxC\\.nuget\\packages\\": {},
+    "C:\\Users\\18661\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MaxC\\Source\\Repos\\Ultra7MemoryGame\\MemoryGame.csproj",
+      "projectUniqueName": "D:\\develop\\githubRepo\\Ultra7MemoryGame\\MemoryGame.csproj",
       "projectName": "MemoryGame",
-      "projectPath": "C:\\Users\\MaxC\\Source\\Repos\\Ultra7MemoryGame\\MemoryGame.csproj",
-      "packagesPath": "C:\\Users\\MaxC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MaxC\\Source\\Repos\\Ultra7MemoryGame\\obj\\",
+      "projectPath": "D:\\develop\\githubRepo\\Ultra7MemoryGame\\MemoryGame.csproj",
+      "packagesPath": "C:\\Users\\18661\\.nuget\\packages\\",
+      "outputPath": "D:\\develop\\githubRepo\\Ultra7MemoryGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MaxC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\18661\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

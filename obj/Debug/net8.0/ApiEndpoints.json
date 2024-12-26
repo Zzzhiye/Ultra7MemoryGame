@@ -38,7 +38,7 @@
   {
     "ContainingType": "MemoryGame.Controllers.RankingsController",
     "Method": "PostRanking",
-    "RelativePath": "api/Rankings",
+    "RelativePath": "api/Rankings/addRanking",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
