@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "MemoryGame.Controllers.AuthController",
+    "Method": "GetUser",
+    "RelativePath": "api/Auth/getUser/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MemoryGame.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -23,6 +39,27 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MemoryGame.Controllers.AuthController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Auth/updateUser/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateUserDto",
+        "Type": "MemoryGame.Models.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

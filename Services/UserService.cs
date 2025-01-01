@@ -18,5 +18,26 @@ namespace MemoryGame.Services
             return await _context.User
                 .FirstOrDefaultAsync(u => u.UserName == username && u.Password == password);
         }
+
+        public async Task<User> GetUserByIdAsync(long userId)
+        {
+            return await _context.User.FindAsync(userId);
+        }
+
+        public async Task<bool> UpdateUserAsync(long userId, UpdateUserDto updateUserDto)
+        {
+            var user = await _context.User.FindAsync(userId);
+
+            if (user == null)
+            {
+                return false;
+            }
+
+            user.UserName = updateUserDto.UserName;
+            user.Email = updateUserDto.Email;
+
+            await _context.SaveChangesAsync();
+            return true;
+        }
     }
 }

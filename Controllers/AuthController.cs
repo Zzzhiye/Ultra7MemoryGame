@@ -56,5 +56,40 @@ namespace MemoryGame.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return Ok(new { message = "Logged Out" });
         }
+
+        [HttpGet("getUser/{userId}")]
+        public async Task<IActionResult> GetUser(long userId)
+        {
+            var user = await _userService.GetUserByIdAsync(userId);
+
+            if (user == null)
+            {
+                return NotFound(new { message = "User not found" });
+            }
+
+            return Ok(user);
+        }
+
+        [HttpPut("updateUser/{userId}")]
+        public async Task<IActionResult> UpdateUser(long userId, [FromBody] UpdateUserDto updateUserDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var result = await _userService.UpdateUserAsync(userId, updateUserDto);
+
+            if (!result)
+            {
+                return NotFound(new { message = "User not found or update failed" });
+            }
+
+            return Ok(new { message = "User updated successfully" });
+        }
+
+
+
+
     }
 }

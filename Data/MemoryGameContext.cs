@@ -33,6 +33,8 @@ namespace MemoryGame.Data
                     .WithMany(u => u.Rankings)
                     .HasForeignKey(r => r.UserId);
             });
+            modelBuilder.Entity<User>().Property(u => u.Email).HasMaxLength(100);
+
         }
     }
 }

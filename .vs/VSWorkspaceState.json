@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Data",
+    "\\Models",
+    "\\Services",
+    "\\wwwroot"
   ],
   "SelectedNode": "\\MemoryGame.sln",
   "PreviewInSolutionExplorer": false
