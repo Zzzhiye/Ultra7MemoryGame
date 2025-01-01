@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\models\\rankingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:models\\rankingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\models\\rankingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:models\\rankingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\models\\ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:models\\ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\data\\memorygamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:data\\memorygamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\models\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:models\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\controllers\\adscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:controllers\\adscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,40 +55,8 @@
       "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\data\\memorygamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:data\\memorygamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\models\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:models\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\controllers\\adscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:controllers\\adscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\models\\rankingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:models\\rankingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\models\\ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:models\\ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|d:\\caprojecta\\net\\ultra7memorygame\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341BC969-0BDB-4F03-B94F-3CF880D8157E}|MemoryGame.csproj|solutionrelative:controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MaxC\\source\\repos\\Ultra7MemoryGame\\Migrations\\20241225084605_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -77,33 +81,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "Models\\UpdateUserDto.cs",
-              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\UpdateUserDto.cs",
-              "RelativeToolTip": "Models\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Ranking.cs",
+              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\Ranking.cs",
+              "RelativeDocumentMoniker": "Models\\Ranking.cs",
+              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\Ranking.cs",
+              "RelativeToolTip": "Models\\Ranking.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T09:32:35.16Z",
+              "WhenOpened": "2024-12-25T08:35:26.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RankingController.cs",
+              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Controllers\\RankingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RankingController.cs",
+              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Controllers\\RankingController.cs",
+              "RelativeToolTip": "Controllers\\RankingController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAA1wEgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T08:31:43.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAiwEYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAA1wEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-01T09:14:22.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -117,19 +134,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Title": "RankingResponseDTO.cs",
+              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\RankingResponseDTO.cs",
+              "RelativeDocumentMoniker": "Models\\RankingResponseDTO.cs",
+              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\RankingResponseDTO.cs",
+              "RelativeToolTip": "Models\\RankingResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:38:20.215Z",
+              "WhenOpened": "2025-01-01T10:59:43.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RankingRequestDTO.cs",
+              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\RankingRequestDTO.cs",
+              "RelativeDocumentMoniker": "Models\\RankingRequestDTO.cs",
+              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\RankingRequestDTO.cs",
+              "RelativeToolTip": "Models\\RankingRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:14:15.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MemoryGameContext.cs",
+              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Data\\MemoryGameContext.cs",
+              "RelativeDocumentMoniker": "Data\\MemoryGameContext.cs",
+              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Data\\MemoryGameContext.cs",
+              "RelativeToolTip": "Data\\MemoryGameContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:59:58.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Models\\LoginDto.cs",
+              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\LoginDto.cs",
+              "RelativeToolTip": "Models\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:14:13.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA4AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:01:26.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:02:58.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\IUserService.cs",
@@ -142,85 +224,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwCsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T15:02:58.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MemoryGameContext.cs",
-              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Data\\MemoryGameContext.cs",
-              "RelativeDocumentMoniker": "Data\\MemoryGameContext.cs",
-              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Data\\MemoryGameContext.cs",
-              "RelativeToolTip": "Data\\MemoryGameContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCMAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T14:59:58.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T15:01:26.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RankingRequestDTO.cs",
-              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\RankingRequestDTO.cs",
-              "RelativeDocumentMoniker": "Models\\RankingRequestDTO.cs",
-              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\RankingRequestDTO.cs",
-              "RelativeToolTip": "Models\\RankingRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T09:14:15.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Models\\LoginDto.cs",
-              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\LoginDto.cs",
-              "RelativeToolTip": "Models\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T09:14:13.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Ranking.cs",
-              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\Ranking.cs",
-              "RelativeDocumentMoniker": "Models\\Ranking.cs",
-              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\Ranking.cs",
-              "RelativeToolTip": "Models\\Ranking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:35:26.669Z",
+              "WhenOpened": "2024-12-25T08:38:20.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Models\\UpdateUserDto.cs",
+              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Models\\UpdateUserDto.cs",
+              "RelativeToolTip": "Models\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:32:35.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AdsController.cs",
               "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Controllers\\AdsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdsController.cs",
@@ -233,20 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RankingController.cs",
-              "DocumentMoniker": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Controllers\\RankingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RankingController.cs",
-              "ToolTip": "D:\\CAprojectA\\net\\Ultra7MemoryGame\\Controllers\\RankingController.cs",
-              "RelativeToolTip": "Controllers\\RankingController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvygAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:31:43.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "20241225084605_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\MaxC\\source\\repos\\Ultra7MemoryGame\\Migrations\\20241225084605_InitialCreate.cs",
               "ToolTip": "C:\\Users\\MaxC\\source\\repos\\Ultra7MemoryGame\\Migrations\\20241225084605_InitialCreate.cs",

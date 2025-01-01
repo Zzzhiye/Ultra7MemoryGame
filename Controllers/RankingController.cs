@@ -52,5 +52,35 @@ namespace MemoryGame.Controllers
             await _RankingContext.SaveChangesAsync();
             return CreatedAtAction(nameof(GetRankings), new { id = ranking.ActivityId }, ranking);
         }
+
+        [HttpGet("user/{userId}")]
+        public async Task<IActionResult> GetUserRankings(long userId)
+        {
+            // 检查用户是否存在
+            var user = await _RankingContext.User
+                .FirstOrDefaultAsync(u => u.UserId == userId);
+
+            if (user == null)
+            {
+                return NotFound($"User with ID {userId} not found.");
+            }
+
+            // 获取该用户的所有排名记录
+            var userRankings = await _RankingContext.Rankings
+                .Where(r => r.UserId == userId)
+                .OrderByDescending(r => r.DateTime) // 按时间倒序排序
+                .ToListAsync();
+
+            // 将记录转换为 DTO 以供返回
+            var rankingDtos = userRankings.Select(r => new RankingResponseDTO
+            {
+                ActivityId = r.ActivityId,
+                UserName = user.UserName,
+                CompletionTime = r.CompletionTime,
+                DateTime = r.DateTime
+            });
+
+            return Ok(rankingDtos);
+        }
     }
 }

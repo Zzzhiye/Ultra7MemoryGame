@@ -89,6 +89,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MemoryGame.Controllers.RankingsController",
+    "Method": "GetUserRankings",
+    "RelativePath": "api/Rankings/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MemoryGame.Controllers.AdsController",
     "Method": "GetPaidStatus",
     "RelativePath": "api/user/{UserId}/paid-status",
