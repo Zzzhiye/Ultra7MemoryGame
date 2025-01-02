@@ -15,8 +15,15 @@ namespace MemoryGame.Services
 
         public async Task<User?> ValidateUserAsync(string username, string password)
         {
-            return await _context.User
-                .FirstOrDefaultAsync(u => u.UserName == username && u.Password == password);
+            var user = await _context.User
+        .FirstOrDefaultAsync(u => u.UserName == username);
+
+            if (user != null && user.Password == password)
+            {
+                return user;
+            }
+
+            return null;
         }
 
         public async Task<User> GetUserByIdAsync(long userId)
