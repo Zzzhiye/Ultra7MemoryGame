@@ -56,7 +56,7 @@ namespace MemoryGame.Controllers
         [HttpGet("user/{userId}")]
         public async Task<IActionResult> GetUserRankings(long userId)
         {
-            // ¼ì²éÓÃ»§ÊÇ·ñ´æÔÚ
+            // æ£€æŸ¥ç”¨æˆ·æ˜¯å¦å­˜åœ¨
             var user = await _RankingContext.User
                 .FirstOrDefaultAsync(u => u.UserId == userId);
 
@@ -65,13 +65,13 @@ namespace MemoryGame.Controllers
                 return NotFound($"User with ID {userId} not found.");
             }
 
-            // »ñÈ¡¸ÃÓÃ»§µÄËùÓÐÅÅÃû¼ÇÂ¼
+            // èŽ·å–è¯¥ç”¨æˆ·çš„æ‰€æœ‰æŽ’åè®°å½•
             var userRankings = await _RankingContext.Rankings
                 .Where(r => r.UserId == userId)
-                .OrderByDescending(r => r.DateTime) // °´Ê±¼äµ¹ÐòÅÅÐò
+                .OrderByDescending(r => r.DateTime) // æŒ‰æ—¶é—´å€’åºæŽ’åº
                 .ToListAsync();
 
-            // ½«¼ÇÂ¼×ª»»Îª DTO ÒÔ¹©·µ»Ø
+            // å°†è®°å½•è½¬æ¢ä¸º DTO ä»¥ä¾›è¿”å›ž
             var rankingDtos = userRankings.Select(r => new RankingResponseDTO
             {
                 ActivityId = r.ActivityId,
@@ -83,7 +83,7 @@ namespace MemoryGame.Controllers
             return Ok(rankingDtos);
         }
 
-        [HttpGet("user/top/{userId}")]
+        [HttpGet("top/user/{userId}")]
         public async Task<IActionResult> GetUserTopRanking(long userId)
         {
             var user = await _RankingContext.User
