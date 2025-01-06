@@ -56,7 +56,6 @@ namespace MemoryGame.Controllers
         [HttpGet("user/{userId}")]
         public async Task<IActionResult> GetUserRankings(long userId)
         {
-            // 检查用户是否存在
             var user = await _RankingContext.User
                 .FirstOrDefaultAsync(u => u.UserId == userId);
 
@@ -65,13 +64,11 @@ namespace MemoryGame.Controllers
                 return NotFound($"User with ID {userId} not found.");
             }
 
-            // 获取该用户的所有排名记录
             var userRankings = await _RankingContext.Rankings
                 .Where(r => r.UserId == userId)
-                .OrderByDescending(r => r.DateTime) // 按时间倒序排序
+                .OrderByDescending(r => r.DateTime)
                 .ToListAsync();
 
-            // 将记录转换为 DTO 以供返回
             var rankingDtos = userRankings.Select(r => new RankingResponseDTO
             {
                 ActivityId = r.ActivityId,

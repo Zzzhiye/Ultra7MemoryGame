@@ -23,7 +23,7 @@ namespace MemoryGame.Models
 
         public bool IsPaid { get; set; } = false;
 
-        public ICollection<Ranking> Rankings { get; set; }
+        public virtual ICollection<Ranking> Rankings { get; set; }
 
 
     }
